@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+}
+
+.resultado {
+  background-color: aqua;
+  width: 400px;
+  padding: 20px;
+  display: flex;          /* se puede controlar desde JS */
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 10rem auto 0;
+  gap: 20px;
+}
+
+.oculto {
+  display: none;
+}
